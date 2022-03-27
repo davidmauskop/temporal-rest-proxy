@@ -1,4 +1,4 @@
-module github.com/temporalio/ui-server
+module github.com/davidmauskop/temporal-rest-proxy
 
 go 1.18
 
@@ -14,6 +14,7 @@ require (
 	github.com/labstack/echo-contrib v0.12.0
 	github.com/labstack/echo/v4 v4.6.3
 	github.com/stretchr/testify v1.7.0
+	github.com/temporalio/ui-server v0.7.0
 	github.com/urfave/cli/v2 v2.3.0
 	go.temporal.io/api v1.7.1-0.20220321175358-f623ba3ce7d4
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
@@ -27,7 +28,6 @@ require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
-	github.com/google/go-cmp v0.5.7 // indirect
 	github.com/gorilla/context v1.1.1 // indirect
 	github.com/labstack/gommon v0.3.1 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
