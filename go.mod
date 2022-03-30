@@ -1,4 +1,4 @@
-module github.com/davidmauskop/temporal-rest-proxy
+module github.com/render-examples/temporal-rest-proxy
 
 go 1.18
 
