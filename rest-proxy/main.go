@@ -12,8 +12,8 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"google.golang.org/grpc"
 
-	"github.com/davidmauskop/temporal-rest-proxy/server/generated/api/workflowservice/v1"
-	"github.com/davidmauskop/temporal-rest-proxy/server/rpc"
+	"github.com/render-examples/temporal-rest-proxy/server/generated/api/workflowservice/v1"
+	"github.com/render-examples/temporal-rest-proxy/server/rpc"
 )
 
 func getBearerToken(r *http.Request) (string, error) {
