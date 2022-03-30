@@ -1,0 +1,14 @@
+{
+  "name": "client-js",
+  "version": "1.0.0",
+  "description": "Example API call that triggers a workflow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.3",
+    "uuid": "^8.3.2"
+  },
+  "type": "module"
+}
